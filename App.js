@@ -1,21 +1,11 @@
-// App.js
 import React from 'react';
-import { SafeAreaView, StyleSheet } from 'react-native';
-import { ThemeProvider } from './context/ThemeContext';
-import HomePage from './components/pages/HomePage';
+import { ThemeProvider } from './src/context/ThemeContext';
+import AppNavigator from './src/navigation/AppNavigator';
 
 export default function App() {
   return (
     <ThemeProvider>
-      <SafeAreaView style={styles.container}>
-        <HomePage />
-      </SafeAreaView>
+      <AppNavigator />
     </ThemeProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});

@@ -1,4 +1,3 @@
-// components/molecules/BookItem.js
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import TextAtom from '../atoms/TextAtom';

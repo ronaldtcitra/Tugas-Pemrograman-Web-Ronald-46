@@ -1,4 +1,3 @@
-// components/organisms/BookList.js
 import React from 'react';
 import { View } from 'react-native';
 import BookItem from '../molecules/BookItem';

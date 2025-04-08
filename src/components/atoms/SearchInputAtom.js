@@ -1,4 +1,3 @@
-// components/atoms/SearchInputAtom.js
 import React from 'react';
 import { TextInput, StyleSheet } from 'react-native';
 
