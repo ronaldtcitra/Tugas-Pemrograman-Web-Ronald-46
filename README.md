@@ -33,13 +33,10 @@ BookApp/
          - AppNavigator.js
 App.js
 app.json
-```
-
----
 
 Instalasi
 
-1. **Clone repository**
+1. Clone repository
    git clone <https://github.com/ronaldtcitra/Tugas-Pemrograman-Web-Ronald-46>
    cd BookApp
 
